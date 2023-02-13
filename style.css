@@ -1,0 +1,31 @@
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px;
+    align-items:center;
+}
+.you{
+    grid-column:1/2;
+}
+.vs{
+    grid-column: 2/3;
+}
+.opponent{
+    grid-column: 3/4;
+}
+.pokemon-container{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.pokemon-rival-container{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.result{
+    grid-column: 2/3;
+    grid-column: 2/3;
+}
